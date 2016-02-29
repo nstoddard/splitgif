@@ -1,0 +1,12 @@
+name: splitgif
+author: Nathan Stoddard
+maintainer: nathanstoddard1@gmail.com
+version: 0.1
+description: Splits a gif into frames
+build-type: Simple
+cabal-version: >=1.2
+
+executable splitgif
+    main-is: Main.hs
+    ghc-options: -O2
+    build-depends: base, directory, filepath, bytestring, JuicyPixels
